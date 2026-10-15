@@ -1,0 +1,17 @@
+{
+  "frame_file": "frame_00018915.jpg",
+  "status": "VERIFIED",
+  "boxes": [
+    {
+      "box_idx": 0,
+      "status": "VERIFIED",
+      "class_id": 3
+    },
+    {
+      "box_idx": 1,
+      "status": "VERIFIED",
+      "class_id": 1
+    }
+  ],
+  "associations": []
+}

@@ -1,0 +1,37 @@
+{
+  "frame_file": "frame_00013095.jpg",
+  "status": "VERIFIED",
+  "boxes": [
+    {
+      "box_idx": 0,
+      "status": "VERIFIED",
+      "class_id": 4
+    },
+    {
+      "box_idx": 1,
+      "status": "VERIFIED",
+      "class_id": 3
+    },
+    {
+      "box_idx": 2,
+      "status": "VERIFIED",
+      "class_id": 4
+    },
+    {
+      "box_idx": 3,
+      "status": "VERIFIED",
+      "class_id": 3
+    },
+    {
+      "box_idx": 4,
+      "status": "VERIFIED",
+      "class_id": 1
+    },
+    {
+      "box_idx": 5,
+      "status": "VERIFIED",
+      "class_id": 1
+    }
+  ],
+  "associations": []
+}

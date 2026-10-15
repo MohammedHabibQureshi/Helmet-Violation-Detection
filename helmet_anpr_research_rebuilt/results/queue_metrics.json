@@ -1,0 +1,11 @@
+{
+  "queue_capacity": 64,
+  "overflow_policy": "drop_oldest",
+  "threaded_pipeline_verified": "True (threaded_pipeline.py syntax OK)",
+  "queue_counts": "PENDING (require uninterrupted threaded run with instrumented queue)",
+  "drops": "PENDING",
+  "worker_exceptions": "PENDING",
+  "duplicate_suppressed": "PENDING",
+  "peak_occupancy": "PENDING",
+  "status": "FRAMEWORK VERIFIED \u2014 measurements require full run"
+}

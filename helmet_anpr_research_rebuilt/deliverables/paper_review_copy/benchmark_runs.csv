@@ -1,0 +1,3 @@
+mode,run1_ms,run2_ms,run3_ms,run4_ms,run5_ms,mean_ms,std_ms
+CPU,149.0,151.5,149.4,153.1,149.7,150.5,1.7
+CUDA,15.1,15.2,15.8,15.0,15.0,15.2,0.3

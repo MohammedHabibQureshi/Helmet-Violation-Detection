@@ -1,0 +1,12 @@
+{
+  "custom_training_completed": false,
+  "status": "PENDING \u2014 verified annotations required",
+  "required_input": "Bounding-box annotations for all 4 classes (rider, with_helmet, without_helmet, number_plate) in YOLO format",
+  "required_split": "train/val/test split by session/segment (temporal separation to avoid leakage)",
+  "required_transcriptions": "Verified number-plate text for OCR accuracy evaluation",
+  "required_association": "Rider-to-plate association ground truth for violation evaluation",
+  "model_config": "yolov8s, img=640, batch=8, epochs=100 (from configs/training_config.yaml)",
+  "training_device": "NVIDIA GeForce RTX 3050 6GB (CUDA 12.6 verified)",
+  "pretrained_checkpoint": "yolov8s.pt (downloaded, verified)",
+  "note": "No pseudo-labels used as ground truth per scientific-integrity rules."
+}

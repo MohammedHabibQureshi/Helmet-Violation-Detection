@@ -1,0 +1,255 @@
+{
+  "machine_candidates": [
+    {
+      "frame": "frame_00000485",
+      "status": "machine_candidate",
+      "ocr_text": "",
+      "conf": 0.0,
+      "image_crop_size": [
+        67,
+        97
+      ]
+    },
+    {
+      "frame": "frame_00000970",
+      "status": "machine_candidate",
+      "ocr_text": "5039]",
+      "conf": 0.7,
+      "image_crop_size": [
+        126,
+        186
+      ]
+    },
+    {
+      "frame": "frame_00001455",
+      "status": "machine_candidate",
+      "ocr_text": "",
+      "conf": 0.0,
+      "image_crop_size": [
+        45,
+        92
+      ]
+    },
+    {
+      "frame": "frame_00001940",
+      "status": "machine_candidate",
+      "ocr_text": "",
+      "conf": 0.0,
+      "image_crop_size": [
+        43,
+        61
+      ]
+    },
+    {
+      "frame": "frame_00002910",
+      "status": "machine_candidate",
+      "ocr_text": "",
+      "conf": 0.0,
+      "image_crop_size": [
+        27,
+        41
+      ]
+    },
+    {
+      "frame": "frame_00003395",
+      "status": "machine_candidate",
+      "ocr_text": "FCZ",
+      "conf": 0.041,
+      "image_crop_size": [
+        36,
+        63
+      ]
+    },
+    {
+      "frame": "frame_00003880",
+      "status": "machine_candidate",
+      "ocr_text": "",
+      "conf": 0.0,
+      "image_crop_size": [
+        72,
+        128
+      ]
+    },
+    {
+      "frame": "frame_00004365",
+      "status": "machine_candidate",
+      "ocr_text": "",
+      "conf": 0.0,
+      "image_crop_size": [
+        34,
+        68
+      ]
+    },
+    {
+      "frame": "frame_00005335",
+      "status": "machine_candidate",
+      "ocr_text": "",
+      "conf": 0.0,
+      "image_crop_size": [
+        36,
+        70
+      ]
+    },
+    {
+      "frame": "frame_00005820",
+      "status": "machine_candidate",
+      "ocr_text": "",
+      "conf": 0.0,
+      "image_crop_size": [
+        27,
+        51
+      ]
+    },
+    {
+      "frame": "frame_00006305",
+      "status": "machine_candidate",
+      "ocr_text": "",
+      "conf": 0.0,
+      "image_crop_size": [
+        57,
+        97
+      ]
+    },
+    {
+      "frame": "frame_00007275",
+      "status": "machine_candidate",
+      "ocr_text": "Ap39c",
+      "conf": 0.723,
+      "image_crop_size": [
+        90,
+        137
+      ]
+    },
+    {
+      "frame": "frame_00007760",
+      "status": "machine_candidate",
+      "ocr_text": "Hma",
+      "conf": 0.119,
+      "image_crop_size": [
+        36,
+        44
+      ]
+    },
+    {
+      "frame": "frame_00008730",
+      "status": "machine_candidate",
+      "ocr_text": "\"EEKSO",
+      "conf": 0.054,
+      "image_crop_size": [
+        56,
+        79
+      ]
+    },
+    {
+      "frame": "frame_00009215",
+      "status": "machine_candidate",
+      "ocr_text": "",
+      "conf": 0.0,
+      "image_crop_size": [
+        27,
+        56
+      ]
+    },
+    {
+      "frame": "frame_00009700",
+      "status": "machine_candidate",
+      "ocr_text": "",
+      "conf": 0.0,
+      "image_crop_size": [
+        66,
+        45
+      ]
+    },
+    {
+      "frame": "frame_00009700",
+      "status": "machine_candidate",
+      "ocr_text": "",
+      "conf": 0.0,
+      "image_crop_size": [
+        108,
+        82
+      ]
+    },
+    {
+      "frame": "frame_00010185",
+      "status": "machine_candidate",
+      "ocr_text": "0988)",
+      "conf": 0.339,
+      "image_crop_size": [
+        54,
+        161
+      ]
+    },
+    {
+      "frame": "frame_00010670",
+      "status": "machine_candidate",
+      "ocr_text": "",
+      "conf": 0.0,
+      "image_crop_size": [
+        34,
+        56
+      ]
+    },
+    {
+      "frame": "frame_00011155",
+      "status": "machine_candidate",
+      "ocr_text": "PPIEEEUOEL",
+      "conf": 0.06,
+      "image_crop_size": [
+        34,
+        118
+      ]
+    },
+    {
+      "frame": "frame_00011640",
+      "status": "machine_candidate",
+      "ocr_text": "",
+      "conf": 0.0,
+      "image_crop_size": [
+        34,
+        64
+      ]
+    },
+    {
+      "frame": "frame_00013095",
+      "status": "machine_candidate",
+      "ocr_text": "Te4",
+      "conf": 0.363,
+      "image_crop_size": [
+        41,
+        159
+      ]
+    },
+    {
+      "frame": "frame_00013095",
+      "status": "machine_candidate",
+      "ocr_text": "",
+      "conf": 0.0,
+      "image_crop_size": [
+        45,
+        89
+      ]
+    },
+    {
+      "frame": "frame_00016005",
+      "status": "machine_candidate",
+      "ocr_text": "",
+      "conf": 0.0,
+      "image_crop_size": [
+        49,
+        104
+      ]
+    },
+    {
+      "frame": "frame_00018430",
+      "status": "machine_candidate",
+      "ocr_text": "",
+      "conf": 0.0,
+      "image_crop_size": [
+        45,
+        108
+      ]
+    }
+  ],
+  "status": "UNVERIFIED \u2014 HUMAN REVIEW REQUIRED"
+}

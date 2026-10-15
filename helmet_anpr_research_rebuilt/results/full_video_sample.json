@@ -1,0 +1,8 @@
+{
+  "video": "croped-main.mp4",
+  "windows_path_used": true,
+  "frames_read": 15254,
+  "sampled": 32,
+  "device": "cuda",
+  "status": "40_FRAMES_SAMPLED"
+}

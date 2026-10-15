@@ -1,0 +1,8 @@
+{
+  "easyocr": "verified",
+  "paddleocr": "installed (not benchmarked)",
+  "tesseract": "wrapper yes / binary no",
+  "actual_recognition": "only easyocr verified",
+  "ocr_accuracy": "PENDING verified transcriptions",
+  "status": "PARTIAL \u2014 2 available (1 with recognition)"
+}

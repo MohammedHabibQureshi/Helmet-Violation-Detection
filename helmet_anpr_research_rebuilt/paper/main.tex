@@ -1,0 +1,80 @@
+\documentclass[journal]{IEEEtran}
+\usepackage{amsmath,amsfonts,amssymb,graphicx,booktabs,multirow,url,hyperref}
+\title{An Auditable Pipeline for Helmet-Violation Detection and Number-Plate Recognition: A Single-Video Pilot Study}
+\author{Helmet-Violation Detection Research Project}
+\begin{document}
+\maketitle
+\begin{abstract}
+This paper documents an auditable pilot pipeline for motorcycle-rider, helmet-status, and number-plate analysis in CCTV video. The contribution is deliberately methodological: it separates measured runtime results from unverified annotations and prevents pseudo-labels from being presented as ground truth. A 874-s, 2304$\times$1440 traffic video was sampled at 40 temporally separated frames. The release contains 101 structurally valid YOLO-format boxes, 24 source-derived plate crops, rejected legacy OCR crops, association proposals, source hashes, and benchmark logs. Five repetitions of four 60-frame execution modes yielded 162.99--167.10 frames/s and 5.85--6.69 ms/frame on the recorded system. Detection AP, F1, and OCR accuracy are intentionally not reported: the 40 frame labels, rider-to-plate proposals, and plate strings have not undergone independent human adjudication. This negative result is important: structural validity, a model checkpoint, or plausible OCR output cannot establish accuracy. We provide a reproducible freeze gate and a pre-specified evaluation protocol that becomes executable only after evidence-based annotation review.
+\end{abstract}
+\begin{IEEEkeywords}helmet compliance, automatic number-plate recognition, video analytics, dataset governance, reproducibility, YOLO\end{IEEEkeywords}
+
+\section{Introduction}
+Helmet enforcement and automatic number-plate recognition (ANPR) are often combined in traffic-video systems, but a visually plausible demonstration is not a measured system. Frame-adjacent samples can make validation appear easier than deployment, while detector proposals or OCR strings can be inadvertently promoted to labels. This work records the current state of a rebuilt end-to-end pipeline and establishes an evidence boundary between what was measured and what remains to be verified.
+
+The study has three objectives: preserve a repeatable detector--association--OCR workflow; measure runtime under fixed, documented segment conditions; and prepare a defensible ground-truth and evaluation procedure. The fourth objective--accuracy evaluation--is explicitly deferred. This framing is preferable to reporting scores computed against predictions or annotations whose provenance is not independent.
+
+\section{Related Work and Scope}
+Modern one-stage detectors provide a practical basis for real-time traffic-object detection; the implementation uses the Ultralytics YOLOv8 interface \cite{yolov8}. OCR candidates are produced using EasyOCR \cite{easyocr}. Neither tool supplies ground truth: recognition must be evaluated against a held-out transcription, and detection against independently reviewed bounding boxes.
+
+The scope is a single fixed CCTV stream. It does not support claims of cross-camera or cross-jurisdiction generalisation. It also does not establish legal identity, ownership, or enforcement eligibility. The number plate is treated solely as a visual text region for research evaluation.
+
+\section{Data Provenance and Review State}
+The source is \texttt{croped-main.mp4}, a 2304$\times$1440 H.264 recording of 19,405 frames (approximately 874 s at 22.20 frames/s). Forty images were extracted at approximately 485-frame intervals. Figure~\ref{fig:contact} is a contact sheet of those exact samples; it is included to make spatial and temporal context inspectable rather than to imply detection accuracy.
+
+\begin{figure*}[!t]\centering\fbox{\parbox[c][3.1cm][c]{0.92\textwidth}{\centering\textbf{Source-frame audit figure.}\\The release contains a contact sheet of all 40 extracted frames in \texttt{outputs/review/contact\_sheet\_40\_small.jpg}. This manuscript embeds the audit interpretation rather than a raster copy so that it compiles as a standalone source document.\\[3pt]\small Frame IDs, label files, crop files, and proposal records retain the traceability link to the original video.}}\caption{Source-frame audit artifact. The separate contact sheet provides visual context; historical status labels are not ground-truth certification.}\label{fig:contact}\end{figure*}
+
+Table~\ref{tab:inventory} separates source-derived artifacts from ground truth. The label validator confirms syntax, normalized-coordinate bounds, and referential presence. It cannot determine whether a box encloses the intended rider, helmet, or plate. Thus ``valid'' in this paper means structurally valid, never semantically verified.
+
+\begin{table}[!t]\caption{Dataset inventory and evidence status}\label{tab:inventory}\centering\begin{tabular}{p{2.5cm}rrp{2.0cm}}\toprule Artifact&Count&Status&Meaning\\\midrule Source frames&40&Measured&Extracted from video\\ YOLO boxes&101&Structural&Semantic review pending\\ Rider boxes&40&Structural&Not independent GT\\ Helmet boxes&36&Structural&4 with, 32 without\\ Plate boxes&24&Structural&Not readable text\\ Source-derived plate crops&24&Review&One AI-read; 23 unreadable\\ Legacy OCR crops&32&Rejected&Wrong crop content\\ Associations&27&Proposed&Need adjudication\\ Empty labels&6&AI reviewed&Needs independent sign-off\\\bottomrule\end{tabular}\end{table}
+
+\section{Pipeline}
+The pipeline has five stages. First, an extractor samples source frames while retaining frame IDs. Second, a four-class detector represents \emph{rider}, \emph{with\_helmet}, \emph{without\_helmet}, and \emph{number\_plate}. Third, an association module proposes rider--plate pairs using spatial relations. Fourth, plate crops are optionally enlarged, converted to grayscale, and contrast enhanced before OCR. Finally, sequential and threaded executors record wall-clock time.
+
+The association output is a proposal, not an identity assertion. An adjudicator must inspect the original frame, confirm that the plate belongs to the rider's motorcycle, and record either a selected pair or ``no resolvable association.'' A plate transcription is accepted only when every displayed character is visually supported; otherwise it must be \texttt{UNREADABLE}, rather than an OCR guess.
+
+\section{Annotation Protocol and Dataset Freeze Gate}
+The repository includes a review interface, YOLO labels, per-frame decision files, and association JSON files. A historical ``VERIFIED'' marker is not sufficient evidence because associated boxes originated as model proposals. The release gate is: (1) review each frame at native resolution, correct boxes and record reviewer/timestamp; (2) record helmet state or ``not assessable'' and plate text or \texttt{UNREADABLE}; (3) record every rider--motorcycle--plate relation as confirmed, rejected, or unresolvable; (4) resolve each of the six empty-label frames explicitly; and (5) conduct a blinded second review and adjudicate disagreements.
+
+The current dataset fails this gate. It is a \emph{pilot annotation package}, not a training or test set. An audit also found and repaired a systematic class-ID shift ($1\ldots4$ persisted instead of ontology IDs $0\ldots3$), and rejected 32 legacy OCR crops that were not plates. This is a substantive result of the audit, not a cosmetic qualification.
+
+\section{Split Design and Leakage Control}
+All material derives from one continuous video. Randomly distributing frames across train, validation, and test lists creates temporal-leakage risk: near-identical viewpoint, background, parked vehicles, and potentially the same rider can appear in all partitions. The existing lists contain all 40 images in training and none in validation or test; they are not an evaluable split.
+
+For the next freeze, complete temporal blocks must be assigned to one partition with a documented exclusion buffer around boundaries. A credible generalisation claim requires at least one distinct video session or camera for the final test set. Until that condition holds, only within-video pilot performance may be stated.
+
+\section{Runtime Experiment}
+Runtime was measured on 60-frame source-video segments, repeated five times per mode. The log records wall time, per-run FPS, and mean latency. The machine record states an Intel Core i5-14450HX, 24 GB RAM, and an NVIDIA GeForce RTX 3050 Laptop GPU. The environment snapshot that generated the audit reported a CPU-only PyTorch build; therefore the rows labelled CUDA are configuration labels, not independently confirmed GPU inference. A CUDA runtime must be rechecked at execution time before a GPU claim is made.
+
+\begin{table*}[!t]\caption{Measured segment runtime (five 60-frame repetitions per mode)}\label{tab:runtime}\centering\begin{tabular}{l l l r r r p{3.2cm}}\toprule Mode&Log device&Executor&Mean FPS&p50 ms&p90 ms&Evidence status\\\midrule A&CPU&Sequential&167.10&5.97&6.18&Measured\\ B&CUDA label&Sequential&165.38&5.99&6.29&Measured; GPU attribution unconfirmed\\ C&CPU&Multithreaded&162.99&6.03&6.69&Measured\\ D&CUDA label&Multithreaded&165.90&6.02&6.11&Measured; GPU attribution unconfirmed\\\bottomrule\end{tabular}\end{table*}
+
+These observations describe short-segment throughput only. They exclude end-to-end OCR latency, resource time series, warm-up analysis, and full-video processing. The 4.11 FPS spread across means is small relative to the scope of these preliminary runs; no statistical superiority of threading or CUDA is claimed.
+
+\section{Evaluation Plan}
+After freezing, detection is scored only on held-out, reviewer-adjudicated data. For a class, precision and recall are $P=TP/(TP+FP)$ and $R=TP/(TP+FN)$; $F1=2PR/(P+R)$. AP is integrated over the precision--recall curve at IoU=0.50, while mAP@0.5:0.95 averages AP over IoU thresholds 0.50 to 0.95 in 0.05 increments. Per-class counts, confidence threshold, IoU matching rule, checkpoint hash, and raw predictions must accompany each score.
+
+OCR evaluation will not silently exclude difficult instances. Let $S$ be the reference and $H$ the hypothesis. Character error rate is $CER=d(S,H)/|S|$, where $d$ is edit distance. Exact-match accuracy is the fraction with $S=H$. Plate-level accuracy must state whether \texttt{UNREADABLE} is a class, excluded with a reason, or counted as an error. Twenty-four genuine crops are now available, but only one has an AI-assisted visual reading and 23 are unreadable; CER and exact-match accuracy remain undefined, not zero.
+
+Association evaluation uses exact pair matching: a prediction is correct only when both the rider and associated plate/motorcycle relation match the adjudicated record. This avoids crediting a correct plate detection attached to the wrong rider.
+
+\section{Results and Limitations}
+The only final numerical results here are the measured runtime values in Table~\ref{tab:runtime} and structural inventory in Table~\ref{tab:inventory}. No detector precision, recall, F1, mAP@0.5, mAP@0.5:0.95, OCR CER, OCR exact match, or association accuracy is reported because independent references do not exist. The preserved \texttt{best.pt} checkpoint is not evaluated or endorsed for deployment.
+
+There is one scene, fixed camera geometry, unknown plate jurisdiction, and no independently annotated test video. Frame sampling is sparse and may miss blur, occlusion, night lighting, and multi-rider interactions. OCR crops are small and oblique; an empty OCR result is evidence of uncertainty, not evidence that a plate is blank. Runtime depends on decoding, batching, warm-up, and device state. Privacy and governance should be considered before releasing frame-level plate text.
+
+\section{Future Scope}
+The first priority is not a larger model but a defensible reference dataset. A two-reviewer protocol should complete the 40-frame semantic review queue, resolve rider--motorcycle--plate ownership, and replace the current AI-assisted transcription ledger with reviewer-approved text or \texttt{UNREADABLE} decisions. The rejected legacy crop set should remain archived as a preprocessing failure case rather than be recycled for OCR training. Inter-reviewer agreement for boxes, helmet state, plate readability, and associations should be measured and reported before any final dataset freeze.
+
+The data collection programme should extend beyond the present single-camera recording. Future work should include separate sessions, cameras, traffic densities, weather and lighting conditions, viewing angles, and plate jurisdictions. Sampling should preserve complete temporal blocks and use a held-out recording for generalisation testing. The resulting corpus should contain enough readable and unreadable plates to evaluate abstention behaviour, not merely text recovery on easy cases.
+
+Once a frozen development/test protocol exists, future experiments can compare the preserved baseline with carefully pre-registered fine-tuning configurations. They should report per-class AP, confidence-interval or bootstrap uncertainty, confusion matrices, PR curves, and analyses stratified by plate size, blur, occlusion, and illumination. OCR experiments should compare preprocessing and recognition engines using identical crops and explicit inclusion rules. Association experiments should test identity-aware tracking or vehicle-instance matching against exact rider--plate ground truth, rather than nearest-neighbour proximity.
+
+Finally, deployment-oriented work should measure full-video end-to-end latency, warm-up, GPU memory, CPU utilisation, energy use where available, queue back-pressure, and robustness under concurrent streams. A fresh CUDA-enabled environment must be recorded at runtime before GPU acceleration is claimed. Any operational use requires privacy impact assessment, retention limits, access controls, and human review for enforcement decisions.
+
+\section{Conclusion}
+This work delivers an auditable pilot pipeline and a narrow set of measured short-segment runtime observations. It does not claim a verified detection or OCR model. The next legitimate milestone is a double-reviewed, temporally partitioned dataset with provenance for every box, association, and transcription. Only then should model selection, training, and accuracy metrics be performed. The distinction is central to credible helmet-violation research.
+\begin{thebibliography}{1}
+\bibitem{yolov8}Ultralytics, ``YOLOv8 documentation,'' 2024. [Online]. Available: \url{https://docs.ultralytics.com/}
+\bibitem{easyocr}Jaided AI, ``EasyOCR: Ready-to-use OCR with deep learning,'' 2024. [Online]. Available: \url{https://github.com/JaidedAI/EasyOCR}
+\end{thebibliography}
+\end{document}

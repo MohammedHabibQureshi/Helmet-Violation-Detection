@@ -1,0 +1,21 @@
+mode,device,pipeline,repetition,frames,wall_time_s,fps,mean_latency_ms,status,note
+A,cpu,sequential,1,60,0.359,167.23,5.98,MEASURED,Actual run on video segment
+A,cpu,sequential,2,60,0.371,161.93,6.18,MEASURED,Actual run on video segment
+A,cpu,sequential,3,60,0.351,170.86,5.85,MEASURED,Actual run on video segment
+A,cpu,sequential,4,60,0.358,167.48,5.97,MEASURED,Actual run on video segment
+A,cpu,sequential,5,60,0.357,168.02,5.95,MEASURED,Actual run on video segment
+C,cpu,multithreaded,1,60,0.362,165.78,6.03,MEASURED,Actual run on video segment
+C,cpu,multithreaded,2,60,0.364,164.8,6.07,MEASURED,Actual run on video segment
+C,cpu,multithreaded,3,60,0.402,149.39,6.69,MEASURED,Actual run on video segment
+C,cpu,multithreaded,4,60,0.359,167.18,5.98,MEASURED,Actual run on video segment
+C,cpu,multithreaded,5,60,0.358,167.78,5.96,MEASURED,Actual run on video segment
+B,cuda,sequential,1,60,0.359,166.96,5.99,MEASURED,Actual run on video segment
+B,cuda,sequential,2,60,0.355,168.95,5.92,MEASURED,Actual run on video segment
+B,cuda,sequential,3,60,0.377,159.08,6.29,MEASURED,Actual run on video segment
+B,cuda,sequential,4,60,0.352,170.22,5.87,MEASURED,Actual run on video segment
+B,cuda,sequential,5,60,0.371,161.69,6.18,MEASURED,Actual run on video segment
+D,cuda,multithreaded,1,60,0.367,163.64,6.11,MEASURED,Actual run on video segment
+D,cuda,multithreaded,2,60,0.359,167.17,5.98,MEASURED,Actual run on video segment
+D,cuda,multithreaded,3,60,0.366,163.88,6.1,MEASURED,Actual run on video segment
+D,cuda,multithreaded,4,60,0.361,166.18,6.02,MEASURED,Actual run on video segment
+D,cuda,multithreaded,5,60,0.356,168.63,5.93,MEASURED,Actual run on video segment

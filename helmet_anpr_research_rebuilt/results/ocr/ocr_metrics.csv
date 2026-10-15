@@ -1,0 +1,4 @@
+metric,value,status
+cer,PENDING,requires verified plate transcriptions
+exact_match_accuracy,PENDING,requires verified plate transcriptions
+mean_latency_easyocr,PENDING,requires crop tests

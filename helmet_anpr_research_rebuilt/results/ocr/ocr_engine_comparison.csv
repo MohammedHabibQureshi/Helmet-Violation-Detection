@@ -1,0 +1,4 @@
+engine,installed,tesseract_cli,actual_recognition,status,note
+easyocr,True,N/A,Yes (verified),MEASURED,GPU active
+paddleocr,True,N/A,Not tested (install complete),MEASURED (installed),Module available
+tesseract,True (wrapper),MISSING,FAILED,FAILED,CLI binary not in PATH

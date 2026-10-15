@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "name": "cuda_available",
+      "passed": true,
+      "detail": "torch.cuda.is_available()=True, device_count=1"
+    },
+    {
+      "name": "device_name_memory",
+      "passed": true,
+      "detail": "name=NVIDIA GeForce RTX 3050 6GB Laptop GPU, capability=(8,6), total_mem=6.44GB"
+    },
+    {
+      "name": "tensor_op_cuda",
+      "passed": true,
+      "detail": "matmul_2048 mean=12.844 ms, out=(2048, 2048)"
+    },
+    {
+      "name": "model_load_cuda",
+      "passed": true,
+      "detail": "YOLOv8s moved to cuda:0"
+    },
+    {
+      "name": "inference_pass_cuda",
+      "passed": true,
+      "detail": "inference on 640x640 blank took 2232.5 ms, 0 detections (blank frame)"
+    }
+  ],
+  "all_passed": true
+}

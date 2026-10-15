@@ -1,0 +1,4 @@
+frame,reason,source_path,status,notes
+frame_00000000,ocr_unverified,helmet_anpr_research_rebuilt/proposal/ocr_review.json,UNRESOLVED,EasyOCR no result on crop
+frame_00000485,empty_label_or_unverified_assoc,helmet_anpr_research_rebuilt/data/images/frame_00000485.jpg,UNRESOLVED,Requires visual verification
+frame_00000970,empty_label_or_unverified_assoc,helmet_anpr_research_rebuilt/data/images/frame_00000970.jpg,UNRESOLVED,Requires visual verification

@@ -1,0 +1,5 @@
+mode,mean_latency_ms,status,source
+A,5.99,MEASURED,benchmark_runs.csv
+B,6.05,MEASURED,benchmark_runs.csv
+C,6.15,MEASURED,benchmark_runs.csv
+D,6.03,MEASURED,benchmark_runs.csv

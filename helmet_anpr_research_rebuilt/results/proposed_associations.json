@@ -1,0 +1,222 @@
+{
+  "count": 27,
+  "items": [
+    {
+      "frame": "frame_00000485",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00000970",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00001455",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00001940",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00002425",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00002910",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00003395",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00003880",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00004850",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00005335",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00005820",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00006305",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00007275",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00007760",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00008730",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00009215",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00009700",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00010185",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00010670",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00011155",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00011640",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00013095",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00013580",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00014550",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00016005",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00018430",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    },
+    {
+      "frame": "frame_00018915",
+      "status": "AUTO_PROPOSED",
+      "rider_idx": 0,
+      "plate_idx": 1,
+      "confidence": "low (needs verification)",
+      "reason": "Both verified; no verified plate text"
+    }
+  ],
+  "note": "All AUTO_PROPOSED; no human verification; not verified ground truth"
+}

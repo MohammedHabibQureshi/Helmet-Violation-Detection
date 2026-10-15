@@ -1,0 +1,8 @@
+{
+  "engine": "easyocr",
+  "device": "cuda",
+  "sample_frame": "frame_0000.jpg",
+  "detected_text": "0102 1970 Fri 0136772 44 amera Classic",
+  "status": "MEASURED",
+  "note": "EasyOCR runs; accuracy PENDING verified transcriptions"
+}

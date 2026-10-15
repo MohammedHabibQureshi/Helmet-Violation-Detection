@@ -1,0 +1,5 @@
+engines: [easyocr, paddleocr, tesseract]
+preprocessing_pipelines: [A, B, C, D]
+min_confidence: 0.3
+min_text_length: 2
+max_text_length: 12

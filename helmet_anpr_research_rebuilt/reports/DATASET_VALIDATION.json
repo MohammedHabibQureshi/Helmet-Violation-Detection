@@ -1,0 +1,37 @@
+{
+  "audit_timestamp": "2026-10-15T10:00:00Z",
+  "dataset_root": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data",
+  "images": 40,
+  "label_files": 40,
+  "total_annotations": 101,
+  "class_distribution": {
+    "rider": 40,
+    "with_helmet": 5,
+    "without_helmet": 32,
+    "number_plate": 24
+  },
+  "empty_label_files": 6,
+  "empty_frames": [
+    "frame_00006790",
+    "frame_00012610",
+    "frame_00014065",
+    "frame_00015035",
+    "frame_00016490",
+    "frame_00017945"
+  ],
+  "splits": {
+    "train": 28,
+    "val": 6,
+    "test": 6
+  },
+  "split_path_form": "absolute (corrected)",
+  "associations_files": 40,
+  "associations_confirmed": 0,
+  "associations_proposed": 27,
+  "plate_crops_validated": 24,
+  "source_video": "croped-main.mp4 (15256 frames, 2304x1440, ~874s @ 17.45fps)",
+  "label_ontology": "0=rider, 1=with_helmet, 2=without_helmet, 3=number_plate",
+  "annotation_status": "STRUCTURALLY_VALID; SEMANTIC_VERIFICATION_PENDING",
+  "key_finding": "Class-ID shift repaired (prior 1-4 -> 0-3). 101 structurally valid boxes across 40 frames. 6 empty-label frames need independent review (not all true negatives). 27 proposed associations unverified. 32 legacy OCR crops rejected.",
+  "reference_notes": "No independently verified ground-truth annotations exist. All labels are structural only."
+}

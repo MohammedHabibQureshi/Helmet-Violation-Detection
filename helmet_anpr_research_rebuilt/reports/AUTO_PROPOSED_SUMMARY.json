@@ -1,0 +1,328 @@
+{
+  "count_total": 40,
+  "verified": 0,
+  "proposed": 40,
+  "items": [
+    {
+      "frame": "frame_00000000.jpg",
+      "existing_labels": 2,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00000485.jpg",
+      "existing_labels": 3,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00000970.jpg",
+      "existing_labels": 3,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00001455.jpg",
+      "existing_labels": 3,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00001940.jpg",
+      "existing_labels": 3,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00002425.jpg",
+      "existing_labels": 2,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00002910.jpg",
+      "existing_labels": 3,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00003395.jpg",
+      "existing_labels": 3,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00003880.jpg",
+      "existing_labels": 3,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00004365.jpg",
+      "existing_labels": 2,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00004850.jpg",
+      "existing_labels": 5,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00005335.jpg",
+      "existing_labels": 3,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00005820.jpg",
+      "existing_labels": 5,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00006305.jpg",
+      "existing_labels": 3,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00006790.jpg",
+      "existing_labels": 0,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00007275.jpg",
+      "existing_labels": 3,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00007760.jpg",
+      "existing_labels": 3,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00008245.jpg",
+      "existing_labels": 2,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00008730.jpg",
+      "existing_labels": 3,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00009215.jpg",
+      "existing_labels": 3,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00009700.jpg",
+      "existing_labels": 4,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00010185.jpg",
+      "existing_labels": 5,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00010670.jpg",
+      "existing_labels": 5,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00011155.jpg",
+      "existing_labels": 3,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00011640.jpg",
+      "existing_labels": 3,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00012125.jpg",
+      "existing_labels": 2,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00012610.jpg",
+      "existing_labels": 0,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00013095.jpg",
+      "existing_labels": 6,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00013580.jpg",
+      "existing_labels": 2,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00014065.jpg",
+      "existing_labels": 0,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00014550.jpg",
+      "existing_labels": 2,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00015035.jpg",
+      "existing_labels": 0,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00015520.jpg",
+      "existing_labels": 2,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00016005.jpg",
+      "existing_labels": 3,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00016490.jpg",
+      "existing_labels": 0,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00016975.jpg",
+      "existing_labels": 1,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00017460.jpg",
+      "existing_labels": 1,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00017945.jpg",
+      "existing_labels": 0,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00018430.jpg",
+      "existing_labels": 3,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    },
+    {
+      "frame": "frame_00018915.jpg",
+      "existing_labels": 2,
+      "proposed_status": "AUTO_PROPOSED",
+      "reason": "Machine detection; unverified \u2014 requires human confirmation",
+      "plate_text": null,
+      "association_status": "UNRESOLVED"
+    }
+  ],
+  "note": "All AUTO_PROPOSED; none claimed verified"
+}

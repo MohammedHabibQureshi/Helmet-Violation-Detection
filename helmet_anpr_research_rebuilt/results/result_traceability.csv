@@ -1,0 +1,9 @@
+claim_id,metric,reported_value,status,source_file,source_row,script,run_id,config,ground_truth_ref
+ENV-01,python_version,3.11.9,MEASURED,results/environment.json,python_version,env_check.py,env-2026-10-13,base,N/A
+ENV-02,cuda_available,True,MEASURED,results/environment.json,cuda_available,env_check.py,env-2026-10-13,base,N/A
+ENV-03,gpu_name,NVIDIA RTX 3050 6GB,MEASURED,results/environment.json,gpu_name,env_check.py,env-2026-10-13,base,N/A
+VID-01,resolution,2304x1440,MEASURED,results/video_inspection.json,resolution,video_inspector.py,vid-2026-10-13,base,N/A
+VID-02,frame_count,19405,MEASURED,results/video_inspection.json,frame_count,video_inspector.py,vid-2026-10-13,base,N/A
+DET-01,mAP,PENDING,PENDING,results/detection_metrics.json,N/A,detection_evaluator.py,PENDING,training_config,requires verified annotations
+OCR-01,cer,PENDING,PENDING,results/ocr/ocr_metrics.csv,N/A,ocr_evaluator.py,PENDING,ocr_config,requires verified plate transcriptions
+BENCH-01,fps_mode_A,PENDING,PENDING,results/benchmark/benchmark_runs.csv,A,benchmark_orchestrator.py,PENDING,benchmark_config,measurement interrupted

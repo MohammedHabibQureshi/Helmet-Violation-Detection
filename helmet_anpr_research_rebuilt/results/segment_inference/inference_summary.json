@@ -1,0 +1,8 @@
+{
+  "frames_processed": 30,
+  "device": "cuda",
+  "checkpoint": "yolov8s.pt (pretrained)",
+  "annotation_status": "PENDING",
+  "custom_training": "PENDING",
+  "status": "MEASURED"
+}

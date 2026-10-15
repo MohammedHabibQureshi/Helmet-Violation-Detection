@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[c]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.pytest_cache/
+.tox/
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+*.egg-info/
+
+# PyTorch / TensorFlow / Keras
+*.pt
+*.onnx
+*.h5
+*.hdf5
+*.pickle
+*.pkl
+*_best.pt
+
+# ZIP archives (may contain sensitive data)
+*.zip
+
+# Logs
+*.log
+*.out
+*.txt
+
+# OS generated files
+.DS_Store
+.AppleDouble
+.Lookup
+
+# Folders
+backups/
+runs/
+
+# Sensitive diagnostics
+a_key_diagnostic_patch.txt
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Environment variables
+*.env
+.env.local

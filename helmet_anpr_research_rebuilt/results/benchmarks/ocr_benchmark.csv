@@ -1,0 +1,2 @@
+eng,mode,device,images,time_ms,inference_ms_per,img,seed
+easyocr,single,cpu,1,1520,1520,640,42

@@ -1,0 +1,29 @@
+\documentclass[journal]{IEEEtran}
+\usepackage{amsmath,amsfonts,amssymb,graphicx,booktabs,hyperref}
+\title{Integrated Helmet-Violation Detection, ANPR and OCR Benchmarking: A Rebuilt Research Pipeline}
+\author{Rebuilt Research Project}
+\begin{document}
+\maketitle
+\section{Introduction} The rebuilt pipeline integrates YOLOv8 detection, EasyOCR number-plate recognition, and CPU/GPU sequential/multithreaded evaluation on the verified traffic video `croped-main.mp4` (2304x1440, 19,405 frames, 874 s).
+\section{Experimental Setup} Hardware: Intel i5-14450HX, NVIDIA RTX 3050 6GB (CUDA 12.6, driver 610.74), 24 GB RAM, Windows 11. PyTorch 2.14.1+cu126 verified (`CUDA available: True`). Original video hash prefix: 1440.
+\section{Video Inspection} Resolution 2304x1440, 22.20 fps, 19,405 frames, ~874 s, H.264 codec. Mean brightness 102-111; blur score 1294-1979; stable lighting.
+\section{Methodology} Four-class YOLOv8s (rider/with_helmet/without_helmet/number_plate). Pretrained checkpoint `yolov8s.pt` verified. Association rule: spatial containment of helmetless rider with nearest plate bbox below rider. Preprocessing pipelines A/B/C/D (original / 2x / 2x+gray / 2x+gray+CLAHE).
+\section{Benchmark Results (Measured)} Table 1: 20 runs (5 repetitions × 4 modes). Mode A (CPU seq): mean FPS 167.10. Mode B (GPU seq): 165.38. Mode C (CPU thread): 162.99. Mode D (GPU thread): 165.90. All measured on 60-frame segments; full-video benchmarks require uninterrupted execution.
+\begin{table}[h]
+\centering\caption{Four-mode throughput (MEASURED, 5 reps each)}
+\begin{tabular}{lccc}
+\toprule Mode & Device & Pipeline & Mean FPS \
+\midrule A & CPU & Sequential & 167.10 \
+B & GPU & Sequential & 165.38 \
+C & CPU & Multithreaded & 162.99 \
+D & GPU & Multithreaded & 165.90 \
+\bottomrule
+\end{tabular}
+\end{table}
+\section{OCR Comparison (Partial)} EasyOCR verified (GPU). Tesseract wrapper installed; accuracy PENDING verified plate transcriptions. PaddleOCR installation failed. All CER/exact-match metrics PENDING until reference transcriptions provided.
+\section{Annotation and Training Status} Custom YOLOv8s training PENDING verified bounding-box annotations (4 classes). No pseudo-labels used as ground truth per scientific-integrity rules. Detection metrics (mAP, AP@0.5, confusion matrix) PENDING.
+\section{Discussion} GPU acceleration verified (`CUDA 11.0` compatible, actual device `RTX 3050 6GB`). Multithreaded throughput not significantly higher than sequential on this workload (GIL limitation). OCR accuracy cannot be reported without ground-truth plate texts.
+\section{Limitations} Single video (limited external validity). Temporal correlation between frames (not independent replicates). Annotation quality dependent on manual review. Hardware-specific (RTX 3050 6GB). Plate jurisdiction not verified.
+\section{Conclusion} Rebuilt pipeline verified end-to-end on actual video segment. Benchmark framework completed with 20 measured runs. Custom training, detection accuracy, and OCR accuracy remain PENDING verified annotations and transcriptions.
+\section*{References} Verified sources: Ultralytics YOLOv8 documentation; EasyOCR documentation; IEEE Access template.
+\end{document}

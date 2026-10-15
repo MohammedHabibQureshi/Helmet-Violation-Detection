@@ -1,0 +1,8 @@
+project_root: "D:/hp/Documents/Claude-workspace/Helmet-Violation-Detection/helmet_anpr_research_rebuilt"
+video_path: "D:/hp/Documents/croped-main.mp4"
+classes:
+  0: rider
+  1: with_helmet
+  2: without_helmet
+  3: number_plate
+random_seed: 42

@@ -1,0 +1,8 @@
+repetitions: 3
+warmup_frames: 10
+queue_capacity: 64
+overflow_policy: drop_oldest
+conf_threshold: 0.25
+iou_threshold: 0.45
+frame_skip: 1
+max_frames: null

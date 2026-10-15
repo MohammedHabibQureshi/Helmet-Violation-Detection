@@ -1,0 +1,14 @@
+model: yolov8s
+imgsz: 640
+batch: 8
+epochs: 100
+patience: 20
+lr0: 0.01
+momentum: 0.937
+weight_decay: 0.0005
+optimizer: SGD
+device: auto
+workers: 2
+cache: false
+amp: false
+seed: 42

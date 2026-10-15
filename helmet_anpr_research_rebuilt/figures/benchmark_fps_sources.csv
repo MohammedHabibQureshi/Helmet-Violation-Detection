@@ -1,0 +1,5 @@
+mode,mean_fps,reps,source_file
+A,167.1,5,results/benchmark/benchmark_runs.csv
+B,165.38,5,results/benchmark/benchmark_runs.csv
+C,162.99,5,results/benchmark/benchmark_runs.csv
+D,165.9,5,results/benchmark/benchmark_runs.csv

@@ -1,0 +1,32 @@
+{
+  "checkpoint": "weights/best.pt",
+  "class_map": {
+    "0": "rider",
+    "1": "with_helmet",
+    "2": "without_helmet",
+    "3": "number_plate"
+  },
+  "status": "PROVISIONAL_AGREEMENT_ONLY",
+  "independent_gt": "NOT_AVAILABLE",
+  "note": "No independent GT. Not validated accuracy.",
+  "sample_results": [
+    {
+      "frame": "frame_00003880.jpg",
+      "detections": 3,
+      "provisional": true,
+      "independent_gt": "NOT_CONFIRMED"
+    },
+    {
+      "frame": "frame_00006790.jpg",
+      "detections": 4,
+      "provisional": true,
+      "independent_gt": "NOT_CONFIRMED"
+    },
+    {
+      "frame": "frame_00007275.jpg",
+      "detections": 5,
+      "provisional": true,
+      "independent_gt": "NOT_CONFIRMED"
+    }
+  ]
+}

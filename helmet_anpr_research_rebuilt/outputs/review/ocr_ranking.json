@@ -1,0 +1,38 @@
+{
+  "engine": "EasyOCR",
+  "samples": 5,
+  "clear": 0,
+  "results": [
+    {
+      "file": "frame_00000485_plate_53_32.jpg",
+      "ocr_text": null,
+      "time_s": 0.089,
+      "clear": false
+    },
+    {
+      "file": "frame_00000970_plate_42_36.jpg",
+      "ocr_text": null,
+      "time_s": 0.125,
+      "clear": false
+    },
+    {
+      "file": "frame_00001455_plate_58_26.jpg",
+      "ocr_text": null,
+      "time_s": 0.038,
+      "clear": false
+    },
+    {
+      "file": "frame_00001940_plate_77_27.jpg",
+      "ocr_text": null,
+      "time_s": 0.033,
+      "clear": false
+    },
+    {
+      "file": "frame_00002425_plate_23_48.jpg",
+      "ocr_text": null,
+      "time_s": 0.148,
+      "clear": false
+    }
+  ],
+  "note": "No verified GT; accuracy not computable"
+}

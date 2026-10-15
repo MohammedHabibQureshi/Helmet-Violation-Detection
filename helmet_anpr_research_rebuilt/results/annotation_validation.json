@@ -1,0 +1,297 @@
+{
+  "status": "passed",
+  "files_checked": 40,
+  "total_annotations": 101,
+  "errors_total": 0,
+  "warnings_total": 0,
+  "class_distribution": {
+    "rider": 40,
+    "with_helmet": 5,
+    "without_helmet": 32,
+    "number_plate": 24
+  },
+  "orphan_labels": [],
+  "missing_labels": [],
+  "file_results": [
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00000000.txt",
+      "annotation_count": 2,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00000485.txt",
+      "annotation_count": 3,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00000970.txt",
+      "annotation_count": 3,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00001455.txt",
+      "annotation_count": 3,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00001940.txt",
+      "annotation_count": 3,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00002425.txt",
+      "annotation_count": 2,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00002910.txt",
+      "annotation_count": 3,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00003395.txt",
+      "annotation_count": 3,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00003880.txt",
+      "annotation_count": 3,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00004365.txt",
+      "annotation_count": 2,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00004850.txt",
+      "annotation_count": 5,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00005335.txt",
+      "annotation_count": 3,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00005820.txt",
+      "annotation_count": 5,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00006305.txt",
+      "annotation_count": 3,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00006790.txt",
+      "annotation_count": 0,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00007275.txt",
+      "annotation_count": 3,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00007760.txt",
+      "annotation_count": 3,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00008245.txt",
+      "annotation_count": 2,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00008730.txt",
+      "annotation_count": 3,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00009215.txt",
+      "annotation_count": 3,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00009700.txt",
+      "annotation_count": 4,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00010185.txt",
+      "annotation_count": 5,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00010670.txt",
+      "annotation_count": 5,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00011155.txt",
+      "annotation_count": 3,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00011640.txt",
+      "annotation_count": 3,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00012125.txt",
+      "annotation_count": 2,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00012610.txt",
+      "annotation_count": 0,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00013095.txt",
+      "annotation_count": 6,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00013580.txt",
+      "annotation_count": 2,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00014065.txt",
+      "annotation_count": 0,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00014550.txt",
+      "annotation_count": 2,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00015035.txt",
+      "annotation_count": 0,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00015520.txt",
+      "annotation_count": 2,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00016005.txt",
+      "annotation_count": 3,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00016490.txt",
+      "annotation_count": 0,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00016975.txt",
+      "annotation_count": 1,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00017460.txt",
+      "annotation_count": 1,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00017945.txt",
+      "annotation_count": 0,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00018430.txt",
+      "annotation_count": 3,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    {
+      "file": "D:\\hp\\Documents\\Claude-workspace\\Helmet-Violation-Detection\\helmet_anpr_research_rebuilt\\data\\labels\\frame_00018915.txt",
+      "annotation_count": 2,
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  ]
+}

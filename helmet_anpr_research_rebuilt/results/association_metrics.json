@@ -1,0 +1,10 @@
+{
+  "method": "nearest_spatial_within_0.35_diag",
+  "proposed_links": 27,
+  "reference_independent": false,
+  "precision": null,
+  "recall": null,
+  "f1": null,
+  "reason": "Independent reference not established.",
+  "note": "27 legacy proposed associations from source were index-based; recomputed with stable IDs. Actual evaluation deferred to freeze gate."
+}

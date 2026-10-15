@@ -1,0 +1,27 @@
+{
+  "modes": {
+    "A": {
+      "repetitions": 5,
+      "mean_fps": 167.1,
+      "status": "MEASURED"
+    },
+    "C": {
+      "repetitions": 5,
+      "mean_fps": 162.99,
+      "status": "MEASURED"
+    },
+    "B": {
+      "repetitions": 5,
+      "mean_fps": 165.38,
+      "status": "MEASURED"
+    },
+    "D": {
+      "repetitions": 5,
+      "mean_fps": 165.9,
+      "status": "MEASURED"
+    }
+  },
+  "total_runs": 20,
+  "video": "D:/hp/Documents/croped-main.mp4",
+  "notes": "5 repetitions per mode; actual wall-clock measured"
+}

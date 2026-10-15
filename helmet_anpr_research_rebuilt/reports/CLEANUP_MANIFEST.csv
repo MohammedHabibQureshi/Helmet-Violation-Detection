@@ -1,0 +1,3 @@
+original_path,action,reason,replacement/duplicate,quarantine_path
+src/__pycache__,moved,python bytecode cache,rebuildable,_cleanup_quarantine_20261015_112540/
+src/*.pyc,moved,compiled bytecode,rebuildable,_cleanup_quarantine_20261015_112540/

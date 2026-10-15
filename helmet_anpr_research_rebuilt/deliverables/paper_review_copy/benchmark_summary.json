@@ -1,0 +1,12 @@
+{
+  "cpu_mean_ms": 150.53939999997965,
+  "cpu_std_ms": 1.7406653629187292,
+  "cpu_median_ms": 149.72619999934977,
+  "cuda_mean_ms": 15.237840000008873,
+  "cuda_std_ms": 0.3055879545347972,
+  "cuda_median_ms": 15.141200000471144,
+  "repetitions": 5,
+  "device_confirmed": "RTX 3050 6GB",
+  "sync_verified": true,
+  "note": "Measured on identical 640x640 blank frame; CUDA faster as expected."
+}

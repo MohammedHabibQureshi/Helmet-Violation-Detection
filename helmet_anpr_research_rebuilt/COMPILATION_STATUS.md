@@ -1,0 +1,1 @@
+PDF compilation: NOT COMPLETED (LaTeX environment not fully verified; manuscript skeleton exists and is syntactically valid but was not compiled to avoid false publication claim). Build command: pdflatex paper/main.tex from project root. All referenced figures/tables are either present or clearly marked PENDING.

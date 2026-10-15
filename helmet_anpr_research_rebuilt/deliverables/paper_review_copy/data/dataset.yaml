@@ -1,0 +1,6 @@
+path: ./data
+train: ./data/splits/train.txt
+val: ./data/splits/val.txt
+test: ./data/splits/test.txt
+nc: 4
+names: ['rider', 'with_helmet', 'without_helmet', 'number_plate']

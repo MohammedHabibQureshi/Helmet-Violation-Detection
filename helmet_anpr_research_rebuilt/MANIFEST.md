@@ -1,0 +1,1 @@
+Rebuilt project manifest. Files delivered: 21 source/config + 2 results JSON + segment inference outputs + benchmark/ocr/paper frameworks + FINAL_REPORT + MANIFEST + traceability CSV. Status: independent rebuild; measurements PENDING where annotations required; no fabricated results.
